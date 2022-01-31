@@ -10,18 +10,11 @@
             
             <a href="index.php?action=principal"  class="logo">
             <img src="images/logo.png" width="100px" height="100px">
-            </a>
-
-           <div class="banner3d">
-                <iframe src='https://my.spline.design/macbookprocopy-fa8d6b1bfa5634447de3da0c41d721b5/' frameborder='0' width='100%' height='100%' ></iframe>
-
-            </div>
-            
-
+            </a>           
             <ul>
-                <li><a href="index.php?action=juego1">2048</a></li>
-                <li><a href="index.php?action=juego2">Snake</a></li>
-                <li><a href="index.php?action=juego3">Tetris</a></li>
+                <li><a href="index.php?action=stock">Stock</a></li>
+                <li><a href="index.php?action=pedidos">Pedidos</a></li>
+                <li><a href="index.php?action=progreso">Progreso</a></li>
                 
             </ul>
         </div>
