@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>GameHub</title>
-    <link rel="shortcut icon" href="/images/logo.png">
-
+    <title>KOWAC</title>
+    <link rel="shortcut icon" href="/images/logo.ico"/>
     <link rel="stylesheet" href="estilos.css">
     <div class="page">
         <div class="navbar">
             
             <a href="index.php?action=principal"  class="logo">
-            <img src="images/logo.png" width="100px" height="100px">
+            <img src="images/logoW.png" width="200px" height="200px">
             </a>           
             <ul>
                 <li><a href="index.php?action=stock">Stock</a></li>
