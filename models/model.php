@@ -5,12 +5,12 @@ class enlacesPag{
          $enlacesModel == "pedidos" ||
          $enlacesModel == "progreso") 
          {
-             $module="views/interfaces/".$enlacesModel.".php";
-         }else if($enlacesModel=="principal")
+             $module="interfaces/".$enlacesModel.".php";
+         }else if($enlacesModel=="home")
          {
-            $module="views/principal.php";
+            $module="interfaces/home.php";
          }else {
-            $module="views/principal.php";
+            $module="interfaces/home.php";
          }
          return $module;
              
