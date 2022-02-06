@@ -4,10 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kowac</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="jquery-easyui-1.10.1/themes/default/easyui.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="icons/css/all.css">
+    <script type="text/javascript" src="jquery-easyui-1.10.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-easyui-1.10.1/jquery.easyui.min.js"></script>
     <section class="header">
         <nav>
             <a href="index.php?action=home"><img src="images/logoW.png"></a>
@@ -17,7 +20,7 @@
                     <li><a href="index.php?action=stock">Stock</a></li>
                     <li><a href="index.php?action=pedidos">Pedidos</a></li>
                     <li><a href="index.php?action=progreso">Progreso</a></li>
-
+                    
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -27,13 +30,10 @@
     
 </head>
 <body>
-
-        
         <?php
             $mvc= new MvcController();
             $mvc->enlacesPagControl();
         ?>
-    
     <section class="footer">
         <h4>
             Conoce mas
